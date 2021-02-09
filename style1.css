@@ -1,0 +1,32 @@
+h1{color: purple;
+text-align: center;
+font-weight: bold;
+font-family: "Lucida handwriting",cursive;}
+p{text-decoration-style: wavy;
+font-family: "papyrus", fantasy;
+font-size: 30px;
+font-weight:bold;}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+width: 50%;
+text-align: center;}
+  th, td {border:1px solid black;}
+  th{
+    background-color: light gray;}
+    th,td {border: 1px solid black;
+    padding: 5px;}
+  td{color: blue;}
+ img{
+   width: 50%;
+ }
+ @media print { screen-only {
+   display: none;}
+   }
+   @media {min-width:500px} {
+     body{
+       background-color: red;}
+   }
+     @media {max-width:499px}
+     {body{background-color: blue;}
+   }
